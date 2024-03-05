@@ -47,8 +47,7 @@ This demo:
 
 Once you have launched this application:
 
-    1) Select a Sonos group in the demo.
-    2) Launch the Sonos application on your mobile device and select the same group that you selected in the demo.
-    3) Changing the volume in the Sonos application on your mobile device will automatically adjust the volume in the demo application.
+    1) Use the bluetooth remote.
+    2) Use the menu bar application to start/pause Sonos.
 
 
