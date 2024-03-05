@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		926DEEBB2B962FCB008A25D8 /* SonosRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DEEBA2B962FCB008A25D8 /* SonosRemoteApp.swift */; };
-		926DEEBD2B962FCB008A25D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DEEBC2B962FCB008A25D8 /* ContentView.swift */; };
 		926DEEBF2B962FCC008A25D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926DEEBE2B962FCC008A25D8 /* Assets.xcassets */; };
 		926DEEC22B962FCC008A25D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926DEEC12B962FCC008A25D8 /* Preview Assets.xcassets */; };
+		926DEECA2B962FF9008A25D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 926DEEC92B962FF9008A25D8 /* README.md */; };
+		926DEECD2B963076008A25D8 /* SonosAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 926DEECC2B963076008A25D8 /* SonosAPI */; };
+		926DEED02B9630B2008A25D8 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 926DEECF2B9630B2008A25D8 /* SocketIO */; };
+		926DEED32B9631DB008A25D8 /* SonosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DEED22B9631DB008A25D8 /* SonosModel.swift */; };
+		926DEED52B9631E3008A25D8 /* RemoteKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DEED42B9631E3008A25D8 /* RemoteKey.swift */; };
+		926DEED72B9631EC008A25D8 /* SocketIOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DEED62B9631EC008A25D8 /* SocketIOModel.swift */; };
+		926DEED92B9751D8008A25D8 /* MenuBarApp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 926DEED82B9751D8008A25D8 /* MenuBarApp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		926DEEB72B962FCB008A25D8 /* SonosRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonosRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DEEBA2B962FCB008A25D8 /* SonosRemoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosRemoteApp.swift; sourceTree = "<group>"; };
-		926DEEBC2B962FCB008A25D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		926DEEBE2B962FCC008A25D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926DEEC12B962FCC008A25D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		926DEEC32B962FCC008A25D8 /* SonosRemote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SonosRemote.entitlements; sourceTree = "<group>"; };
+		926DEEC92B962FF9008A25D8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		926DEED22B9631DB008A25D8 /* SonosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonosModel.swift; sourceTree = "<group>"; };
+		926DEED42B9631E3008A25D8 /* RemoteKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteKey.swift; sourceTree = "<group>"; };
+		926DEED62B9631EC008A25D8 /* SocketIOModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOModel.swift; sourceTree = "<group>"; };
+		926DEED82B9751D8008A25D8 /* MenuBarApp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MenuBarApp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926DEECD2B963076008A25D8 /* SonosAPI in Frameworks */,
+				926DEED02B9630B2008A25D8 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +48,8 @@
 		926DEEAE2B962FCB008A25D8 = {
 			isa = PBXGroup;
 			children = (
+				926DEEC92B962FF9008A25D8 /* README.md */,
+				926DEED82B9751D8008A25D8 /* MenuBarApp.jpg */,
 				926DEEB92B962FCB008A25D8 /* SonosRemote */,
 				926DEEB82B962FCB008A25D8 /* Products */,
 			);
@@ -52,8 +66,8 @@
 		926DEEB92B962FCB008A25D8 /* SonosRemote */ = {
 			isa = PBXGroup;
 			children = (
+				926DEED12B9631CE008A25D8 /* Model */,
 				926DEEBA2B962FCB008A25D8 /* SonosRemoteApp.swift */,
-				926DEEBC2B962FCB008A25D8 /* ContentView.swift */,
 				926DEEBE2B962FCC008A25D8 /* Assets.xcassets */,
 				926DEEC32B962FCC008A25D8 /* SonosRemote.entitlements */,
 				926DEEC02B962FCC008A25D8 /* Preview Content */,
@@ -67,6 +81,16 @@
 				926DEEC12B962FCC008A25D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		926DEED12B9631CE008A25D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				926DEED42B9631E3008A25D8 /* RemoteKey.swift */,
+				926DEED62B9631EC008A25D8 /* SocketIOModel.swift */,
+				926DEED22B9631DB008A25D8 /* SonosModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +109,10 @@
 			dependencies = (
 			);
 			name = SonosRemote;
+			packageProductDependencies = (
+				926DEECC2B963076008A25D8 /* SonosAPI */,
+				926DEECF2B9630B2008A25D8 /* SocketIO */,
+			);
 			productName = SonosRemote;
 			productReference = 926DEEB72B962FCB008A25D8 /* SonosRemote.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +141,10 @@
 				Base,
 			);
 			mainGroup = 926DEEAE2B962FCB008A25D8;
+			packageReferences = (
+				926DEECB2B963076008A25D8 /* XCRemoteSwiftPackageReference "SonosAPI" */,
+				926DEECE2B9630B2008A25D8 /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = 926DEEB82B962FCB008A25D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926DEED92B9751D8008A25D8 /* MenuBarApp.jpg in Resources */,
+				926DEECA2B962FF9008A25D8 /* README.md in Resources */,
 				926DEEC22B962FCC008A25D8 /* Preview Assets.xcassets in Resources */,
 				926DEEBF2B962FCC008A25D8 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DEEBD2B962FCB008A25D8 /* ContentView.swift in Sources */,
+				926DEED72B9631EC008A25D8 /* SocketIOModel.swift in Sources */,
+				926DEED52B9631E3008A25D8 /* RemoteKey.swift in Sources */,
+				926DEED32B9631DB008A25D8 /* SonosModel.swift in Sources */,
 				926DEEBB2B962FCB008A25D8 /* SonosRemoteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +315,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +343,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,6 +379,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		926DEECB2B963076008A25D8 /* XCRemoteSwiftPackageReference "SonosAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/denisblondeau/SonosAPI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		926DEECE2B9630B2008A25D8 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 16.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		926DEECC2B963076008A25D8 /* SonosAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 926DEECB2B963076008A25D8 /* XCRemoteSwiftPackageReference "SonosAPI" */;
+			productName = SonosAPI;
+		};
+		926DEECF2B9630B2008A25D8 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 926DEECE2B9630B2008A25D8 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 926DEEAF2B962FCB008A25D8 /* Project object */;
 }
